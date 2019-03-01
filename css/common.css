@@ -1,0 +1,381 @@
+@charset 'utf-8';
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,input{margin:0;padding:0;}
+i,em{font-style:normal;}
+b,strong{font-weight:normal;}
+u,a{text-decoration: none;}
+ul,li,ol{list-style:none;}
+img{border:0;display:block;}
+input{outline:none;}
+body{font-family:"微软雅黑";color: #222;font-size: 12px;}
+h1,h2,h3,h4,h5,h6{font-size:16px;font-weight:normal;}
+.clear_fix:after{content:'.';display:block;clear:both;height:0;overflow:hidden;visibility:hidden;}
+a{
+	color: #222;
+}
+
+html body .ahover{
+	color: #e13a68;
+}
+
+
+.head,.headb,.onlylove,.indexline,.pick,.caseshow,.ad,.main,.aries,.offline,.news,.hotswrap,.login,.reg,.bottom,.shouhou,.contact,.footicon,.flink{
+	width: 1180px;
+	margin: 0 auto;
+}
+#head{
+	background: #F3F3F3;
+	height: 38px;
+	line-height: 38px;
+	font-size: 12px;
+}
+#head .top a{
+	margin: 0 10px;
+}
+#head .top .t_left{
+	width: 550px;
+	float: left;
+}
+#head .top .t_right{
+	width: 630px;
+	float: right;
+	text-align: right;
+}
+#head .user{
+	padding-left: 20px;
+	background: url("http://www.dionly.com/images/topbar/icon.png") no-repeat 0 -20px;
+}
+#head .shopcart span{
+	font-weight: bold;
+	color: #DB3962;
+}
+#head .certify{
+	padding-left: 17px;
+	background: url("http://www.dionly.com/images/topbar/icon.png") no-repeat 0 -39px;
+}
+#head .t_right .yuyue{
+	color: #e13a68;
+	padding-left: 17px;
+	background: url("http://www.dionly.com/images/topbar/icon.png") no-repeat 0 -39px;
+}
+#head .mobile{
+	padding-left: 22px;
+	background: url("http://www.dionly.com/images/topbar/icon.png") no-repeat 0 -64px;
+}
+#head .wechat{
+	padding-left: 25px;
+	background: url("http://www.dionly.com/images/topbar/icon.png") no-repeat 0 -96px;
+}
+#head .weibo{
+	margin-right: 2px;
+	padding-left: 26px;
+	background: url("http://www.dionly.com/images/topbar/icon.png") no-repeat 0 -129px;
+}
+#headb{
+	background: #fff;
+}
+#headb .header{
+	height: 95px;
+	padding-top: 5px;
+	
+}
+#headb .logo{
+	float: left;
+	width: 200px;
+	height: 90px;
+}
+#headb .logo a{
+	display: block;
+}
+#headb .search{
+	width: 550px;
+	height: 90px;
+	float: right;
+}
+#headb .biaodan{
+	width: 259px;
+	height: 30px;
+	margin: 18px 0 0 150px;
+	border: 1px solid #6D6C6C;
+	position: relative;
+}
+#headb .txt{
+	float: left;
+	width: 189px;
+	height: 30px;
+	line-height: 30px;
+	color: #7d7d7d;
+	border: none;
+	padding-left: 10px;
+}
+#headb .btn{
+	float: left;
+	width: 61px;
+	height: 31px;
+	line-height: 28px;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	border: none;
+	border-left: 1px solid #6D6C6C;
+	background: #6d6c6c;
+	cursor: pointer;
+	position: absolute;
+	top: -1px;
+}
+#headb .erweima{
+	float: right;
+}
+#headb .hotkey{
+	width: 228px;
+	height: 30px;
+	margin: 10px 0 0 150px;
+}
+.hotkey a{
+	margin-right: 6px;
+	color: #7D7D7D;
+}
+#headb .n_menu{
+	width: 200px;
+	float: left;
+}
+#headb .n_menu>li{
+	padding-left: 17px;
+	float: left;
+	width: 183px;
+	height: 38px;
+	line-height: 38px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	background: #C11E20 url("http://www.dionly.com//images/menuer/icon.png") no-repeat 160px 0;
+	position: relative;
+}
+
+#headb .submenu{
+	display: none;
+	width: 200px;
+	position: absolute;
+	left: 0;
+	font-size: 12px;
+	z-index: 999;
+}
+.submenu a{
+	color: #fff;
+	display: block;
+	margin-left: 12px;
+	width: 36px;
+	float: left;
+	line-height: 24.8px;
+}
+.submenu .nbsp{
+	margin-left: 60px;
+}
+#headb .submenu li{
+	padding: 10px 5px 10px;
+}
+#headb .home{
+	float: left;
+	padding: 0 25px 0 50px;
+	font-size: 14px;
+	font-weight: bold;
+	height: 38px;
+	line-height: 38px;
+}
+#headb .item{
+	float: left;
+	height: 38px;
+	line-height: 38px;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 0 20px;
+}
+#headb .phone{
+	float: right;
+	width: 240px;
+	height: 38px;
+	line-height: 38px;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 0 20px;
+}
+
+
+#footer .beta{
+	background: #fff;
+	padding-top: 20px;
+}
+#footer .line{
+	float: left;
+	height: 35px;
+	line-height: 35px;
+	overflow: hidden;
+	background: url("http://www.dionly.com/images/footer/line.gif");
+}
+#footer .line .b_center{
+	float: left;
+	padding-left: 15px;
+	width: 385px;
+	font-size: 18px;
+	font-weight: bold;
+}
+#footer .p_list{
+	width: 780px;
+	float: left;
+	text-align: center;
+}
+#footer .p_name{
+	width: 65px;
+	float: left;
+	font-weight: bold;
+}
+.select{
+	color: #8A0003;
+	background: url("http://www.dionly.com/images/footer/select.gif");
+	cursor: pointer;
+}
+#footer .city{
+	float: left;
+	width: 679px;
+	height: 225px;
+	overflow: hidden;
+	text-align: center;
+	line-height: 32px;
+	font-size: 14px;
+	background: url("http://www.dionly.com/images/footer/map.png");
+	border-left: 1px solid #6B6B6B;
+}
+#footer .cityhide{
+	display: none;
+}
+#footer .cityshow{
+	display: block;
+}
+#footer .cityshops{
+	float: right;
+}
+#footer .local{
+	padding: 35px 0 25px;
+	font-weight: bold;
+	font-size: 20px;
+}
+#footer .cityline{
+	height: 30px;
+	background: url("http://www.dionly.com/images/footer/linebg.jpg") #fff;
+}
+#safe{
+	background: #fff;
+}
+#safe .safe{
+	height: 85px;
+	background: url("http://www.dionly.com/images/footer/security.jpg") center no-repeat;
+}
+#shouhou{
+	padding: 15px 0;
+	border-top: 1px solid #ccc;
+	background: #E9E9E9;
+}
+#shouhou .shouhou{
+	height: 130px;
+	border-left: 1px solid #ccc;
+	background: url("http://www.dionly.com/images/footer/shouhou.png") no-repeat;
+}
+#shouhou li{
+	float: left;
+	width: 145px;
+	height: 115px;
+	border-right: 1px solid #ccc;
+	padding: 15px 0 0 50px;
+}
+#shouhou h2{
+	font-weight: bold;
+	line-height: 30px;
+	font-size: 12px;
+}
+.shouhou a{
+	float: left;
+	width: 145px;
+	line-height: 24px;
+	color: #555;
+}
+#contact{
+	background: #333;
+	height: 66px;
+	padding: 15px 0;
+	color: #B9B9B9;
+}
+#contact .left{
+	width: 1000px;
+	float: left;
+}
+#contact .p1{
+	height: 35px;
+	line-height: 35px;
+}
+#contact .p2{
+	height: 30px;
+	line-height: 30px;
+}
+#contact .right{
+	text-align: right;
+	float: left;
+	width: 170px;
+	height: 35px;
+	line-height: 35px;
+}
+#footicon{
+	background: #fff;
+	height: 53px;
+	padding: 15px 0;
+}
+#footicon .footicon{
+	background: url("http://www.dionly.com/images/footer/footicon.gif") no-repeat;
+}
+#footicon a{
+	width: 123px;
+	height: 53px;
+	margin-right: 53px;
+	float: left;
+}
+#footicon a:last-child{
+	margin-right: 0;
+}
+
+#float{
+	position: fixed;
+	right: 5px;
+	bottom: 100px;
+	z-index: 50;
+	text-align: center;
+}
+#float a{
+	display: block;
+	height: 64px;
+	width: 64px;
+	margin-top: 2px;
+	background: #c11e20;
+	position: relative;
+}
+#float li .at{
+	width: 64px;
+	height: 40px;
+	text-align: center;
+	overflow: hidden;
+}
+#float li .at img{
+	margin: 10px auto;
+	display: block;
+}
+#float .ab{
+	color: #fff;
+	height: 24px;
+	line-height: 24px;
+	font-family: "宋体";
+	font-weight: 400;
+}
+.indexline{
+	background: url("http://www.dionly.com/images/home/line.jpg");
+	height: 18px;
+}
+#footer{
+	background: #fff;
+}

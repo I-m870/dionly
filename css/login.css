@@ -1,0 +1,85 @@
+#login{
+	width: 100%;
+	height: 588px;
+	background: #FBEDEC url("http://www.dionly.com/images/normal/login.jpg") no-repeat center center;
+}
+#login input{
+	padding: 1px 3px;
+	border: none;
+	height: 28px;
+	line-height: 28px;
+	font-size: 14px;
+}
+ .loginr{
+	float: right;
+	width: 518px;
+	height: 588px;
+}
+ .reg{
+	display: block;
+	width: 56px;
+	height: 25px;
+	padding-top: 112px;
+	margin-left: 330px;
+	font-size: 14px;
+	color: #DB3962;
+}
+ .phone1{
+	margin: 41px 0 0 150px;
+	width: 150px;
+}
+ .err{
+	display: block;
+	margin: 3px 0 0 150px;
+	width: 200px;
+	height: 18px;
+	color: #DB3962;
+}
+ .psw{
+	margin: 3px 0 0 150px;
+	width: 155px;
+}
+ .auto{
+	margin-top: 2px;
+	width: 390px;
+	height: 35px;
+	font-size: 14px;
+}
+ .autobox{
+	float: left;
+	margin-left: 55px;
+	width: 10px;
+	height: 18px;
+	padding:1px 3px 3px 4px;
+}
+ .checkbox{
+	float: left;
+}
+ .autotxt{
+	width: 192px;
+	margin-left: 5px;
+	margin-top: 3px;
+	float: left;
+}
+ .fgt{
+	float: right;
+	margin-right: 50px;
+}
+ .logbtn{
+	background: url("http://www.dionly.com/images/normal/loginbutn.png") no-repeat;
+	cursor: pointer;
+	width: 321px;
+	height: 41px;
+	margin-left: 60px;
+	border: none;
+}
+ .third{
+	margin: 46px 0 0 73px;
+	width: 330px;
+	height: 75px;
+	text-align: center;
+}
+ .third img{
+	float: left;
+	margin: 0 9px;
+}

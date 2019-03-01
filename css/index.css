@@ -1,0 +1,292 @@
+#banner{
+	height: 420px;
+}
+#banner ul li{
+	height: 420px;
+}
+#banner .banner{
+	height: 420px;
+	position: relative;
+}
+#banner a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+#banner .young{
+	width: 100%;
+	background: url("http://www.dionly.com/upload/image/20151028/small20151028131103.jpg") 50% 0px no-repeat;
+	display: block;
+	position: absolute;
+	z-index: 1;
+}
+#banner .gia{
+	width: 100%;
+	background: url("http://www.dionly.com/resources/images/home/banner/2.jpg") 50% 0px no-repeat;
+	display: none;
+	z-index: 1;
+	position: absolute;
+}
+#banner ol{
+	position: absolute;
+	z-index: 5;
+	bottom: 10px;
+	right: 0;
+	left: 50%;
+}
+#banner .oli{
+	float: left;
+	width: 14px;
+	height: 14px;
+	margin: 0 5px;
+	cursor: pointer;
+	background: url("http://www.dionly.com/images/jquery/flexslider/dot.png") no-repeat;
+}
+#banner .oli:nth-child(2){
+	background-position-x: -13px;
+}
+
+
+
+
+#onlylove{
+	padding-top: 18px;
+	height: 210px;
+	text-align: center;
+}
+#onlylove .onlylove div{
+	float: left;
+	height: 200px;
+	border: 1px solid #ddd;
+	padding: 4px;
+	line-height: 22px;
+}
+#onlylove .lonly,.ronly{
+	width: 310px;
+}
+#onlylove .conly{
+	margin-left: 15px;
+	width: 500px;
+}
+#onlylove .ronly{
+	margin-left: 15px;
+}
+#onlylove img{
+	margin-bottom: 5px;
+}
+
+
+
+#pick .pick{
+	border: 1px solid #ddd;
+	height: 159px;
+}
+#pick .lp{
+	float: left;
+	width: 616px;
+	background: #f9f9f9;
+}
+#pick .lp img{
+	margin: 20px 0 0 15px;
+}
+#pick .rp{
+	height: 159px;
+	width: 562px;
+	float: left;
+	background: url("http://www.dionly.com/images/home/line2/bg1.png") no-repeat;
+}
+#pick .rptl{
+	margin: 20px 0 0 70px;
+	float: left;
+	width: 145px;
+	height: 33px;
+}
+#pick .rprinp{
+	width: 50px;
+	height: 33px;
+	float: left;
+	margin-top: 5px;
+}
+#pick .weightinp{
+	width: 40px;
+	height: 15px;
+	padding: 1px;
+	float: left;
+}
+#pick .inpline_1{
+	float: left;
+	width: 17px;
+	height: 33px;
+	line-height: 30px;	
+}
+#pick .inpline_2{
+	float: left;
+	height: 33px;
+	line-height: 30px;	
+}
+#pick .rptr{
+	float: left;
+	width: 245px;
+	height: 33px;
+	margin: 22px 0 0 76px;
+}
+#pick img{
+	cursor: pointer;
+	float: left;
+	padding: 0 3px;
+	margin-top: 3px;
+}
+#pick .rpb{
+	float: left;
+	margin: 13px 0 0 70px ;
+	height: 33px;
+}
+
+.caseshow{
+	height: 429px;
+}
+
+.caseshow .ringl{
+	float: left;
+	width: 321px;
+	height: 429px;
+	background: url("http://www.dionly.com/images/home/line3/1.jpg") no-repeat;
+}
+.caseshow .ringlt{
+	display: block;
+	width: 320px;
+	height: 180px;
+} 
+.caseshow .ringlc{
+	width: 170px;
+	height: 120px;
+	padding: 12px 0 5px 0 ;
+	margin-left: 30px;
+}
+.caseshow .ringlc div{
+	height: 24px;
+	line-height: 24px;
+}
+.caseshow .ringlb{
+	width: 170px;
+	height: 100px;
+	margin-left: 30px;
+}
+.caseshow .ringlb div{
+	height: 24px;
+	line-height: 24px;
+}
+.caseshow .ringc{
+	float: left;
+	width: 259px;
+	height: 429px;
+}
+.caseshow .ringr{
+	float: left;
+	width: 600px;
+	height: 429px;
+}
+.caseshow .ringr a{
+	float: left;
+}
+
+
+.aries div{
+	float: left;
+}
+
+#doublering .ringl{
+	background: url("http://www.dionly.com/images/home/line5/1.jpg") no-repeat;
+}
+
+#colorful .ringl{
+	background: url("http://www.dionly.com/images/home/line6/1.jpg") no-repeat;
+}
+
+#pearl .ringl{
+	background: url("http://www.dionly.com/images/home/line8/1.jpg") no-repeat;
+}
+
+#gold .ringl{
+	background: url("http://www.dionly.com/images/home/line10/1.jpg") no-repeat;
+}
+
+
+#news .news>div{
+	height: 290px;
+	float: left;
+	margin-right: 10px;
+	width: 320px;
+	height: 288px;
+	border: 1px solid #e3e3e3;
+}
+#news .newhead{
+	width: 305px;
+	height: 33px;
+	line-height: 33px;
+	padding-left: 15px;
+	font-weight: bold;
+	background: url("http://www.dionly.com/images/home/line9/headbg.jpg");
+}
+#news .newmain{
+	padding: 5px;
+	width: 310px;
+	height: 245px;
+}
+#news .maintext{
+	margin-top: 10px;
+}
+#news .maintext div{
+	height: 27px;
+	line-height: 27px;
+	padding-left: 10px;
+}
+/*#news .newl{
+}
+
+#news .newc{
+	height: 290px;
+	float: left;
+}
+
+#news .newr{
+	height: 290px;
+	float: left;
+}*/
+
+
+
+#flink{
+	border-top: 1px solid #ccc;
+	background: #f0f0f0;
+	color: #999;
+	padding: 15px 0;
+}
+#flink .flink{
+	line-height: 25px;
+}
+#flink .ftop{
+	width: 1170px;
+	height: 80px;
+	padding: 0 5px;
+}
+#flink .fleft{
+	float: left;
+	width: 70px;
+	font-weight: bold;
+}
+#flink .fright{
+	float: left;
+	width: 1100px;
+}
+.fright a{
+	color: #888;
+	margin-right: 8px;
+	white-space: nowrap;
+}
+#flink .fbottom{
+	height: 25px;
+	width: 1170px;
+	text-align: right;
+	padding: 0 5px;
+}

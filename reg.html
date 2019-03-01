@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/reg.css" />
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+	</head>
+
+	<body>
+		<div id="topper"></div>
+
+		<div id="reg">
+			<div class="reg">
+				<div class="regr">
+					<a href="login.html" class="login">会员登录</a>
+					<form action="php/reg.php" method="post" class="clear_fix">
+						<input class="phone1" type="text" name="phonenum" id="phonenum" value="" placeholder="11位数字" />
+						<span class="err"></span>
+						<input class="yanzhengma" type="text" name="" id="" value="" placeholder="可以不写" />
+						<img class="benma" src="http://www.dionly.com/Virtual/CodeImage.aspx" />
+						<span class="err"></span>
+						<input class="duanxin" type="text" name="duanxin" id="duanxin" value="" placeholder="可以不写" />
+						<a class="getduanxin" href="javascript:;">获取验证码</a>
+						<span class="err"></span>
+						<input class="psw" type="password" name="pwd1" id="pwd1" value="" placeholder="6-20位必须包含字母数字" />
+						<span class="err"></span>
+						<input class="psw" type="password" name="pwd2" id="pwd2" value="" placeholder="6-20位必须包含字母数字" />
+						<span class="err"></span>
+						<div class="xieyi">
+							<div class="autobox">
+								<input type="checkbox" name="loginauto" id="loginauto" />
+								<input type="hidden" name="checkauto" id="checkauto" value="" />
+							</div>
+							<div class="autotxt" id="autotxt">我已阅读并同意
+								<a href="javascript:;">《戴欧妮珠宝用户服务协议》</a>
+							</div>
+						</div>
+						<input class="regbtn" type="submit" value="" />
+					</form>
+					<div class="third">
+						<a href="javascript:;"><img src="http://www.dionly.com/Images/normal/Connect_logo_7.png" style="margin-top:13px;"></a>
+						<a href="javascript:;"><img src="http://www.dionly.com/images/normal/wb.gif" alt=""></a>
+						<a href="javascript:;"><img src="http://www.dionly.com/images/normal/zfb.gif" alt=""></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="bottomer"></div>
+
+		<div id="floater"></div>
+	</body>
+
+</html>
+<script type="text/javascript">
+	$("#topper").load("public.html #topcon");
+	$("#bottomer").load("public.html #footcon");
+	$("#floater").load("public.html #float");
+</script>
+<script src="js/public.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/reg.js" type="text/javascript" charset="utf-8"></script>

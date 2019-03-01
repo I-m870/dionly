@@ -1,0 +1,297 @@
+.productpath{
+	height: 50px;
+	line-height: 50px;
+	text-indent: 15px;
+}
+.productitem{
+	width: 1178px;
+	border: 1px solid #D2D2D2;
+	background: #fff;
+}
+.itemline{
+	width: 1178px;
+	height: 15px;
+	border-top: 2px solid #FFC0C1;
+}
+.itemleft{
+	float: left;
+	padding: 15px 25px;
+	width: 450px;
+	border-right: 1px solid #D2D2D2;
+}
+.large{
+	margin: 0 10px;
+	width: 422px;
+	height: 422px;
+	text-align: center;
+}
+.ui-zoom-pad{
+	float: left;
+	position: relative;
+	z-index: 100;
+	cursor: move;
+	border: 1px solid #ccc;
+}
+.ui-zoom-pup{
+	top: 0;
+	left: 0;
+	width: 247px;
+	height: 247px;
+	position: absolute;
+	display: none;
+	z-index: 10;
+	border: 1px solid #D2D2D2;
+	background: #fff;
+	opacity: 0.6;
+}
+.ui-zoom-window{
+	border: 1px solid #ccc;
+	left: 418px;
+	top: -1px;
+	height: 420px;
+	width: 420px;
+	position: absolute;
+	z-index: 2000;
+	display: none;
+}
+.itemright{
+	float: right;
+	padding: 15px 5px;
+	width: 600px;
+}
+.list{
+	width: 530px;
+	line-height: 38px;
+}
+.text{
+	float: left;
+	width: 100px;
+	text-align: right;
+}
+.none{
+	display: none;
+}
+.data{
+	float: left;
+	width: 430px;
+}
+.bold{
+	font-size: 13px;
+	font-weight: bold;
+}
+.market{
+	color: #888;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: line-through;
+}
+.price{
+	color: #DB3962;
+	font-size: 14px;
+	font-weight: bold;
+}
+.materia{
+	padding: 5px 10px;
+	background: #ccc;
+	margin-right: 8px;
+	cursor: pointer;
+}
+.materiaselect{
+	background: #DB3962;
+	color: #fff;
+}
+.dropdown{
+	padding: 2px;
+	margin-top: 8px;
+	border: 1px solid #CCCCCC;
+}
+.diamond{
+	color: #A00005;
+}
+.crave{
+	padding: 2px;
+	width: 80px;
+	height: 17px;
+	margin-right: 10px;
+	border: 1px solid #CCCCCC;
+}
+.consult{
+	color: red;
+}
+.info{
+	margin: 10px 0 0 40px; 
+	padding-top: 10px;
+	width: 450px;
+	border-top: 1px dashed #D2D2D2;
+}
+.total{
+	width: 450px;
+	line-height: 30px;
+	color: red;
+	visibility: visible;
+}
+.button{
+	width: 450px;
+	height: 60px;
+	
+}
+.addtocart_zuan{
+	float: left;
+	margin: 12px 12px 0 0;
+	background: url("http://www.dionly.com/images/common/addtocart_zuan.png") no-repeat ;
+	width: 227px;
+	height: 42px;
+	cursor: pointer;	
+}
+.addtofavor{
+	float: left;
+	margin: 12px 12px 0 0;
+	background: url("http://www.dionly.com/images/common/addtofavor.png") no-repeat;
+	width: 126px;
+	height: 42px;
+	cursor: pointer;
+}
+.mainl{
+	padding-top: 20px;
+	float: left;
+	width: 242px;
+}
+.mainlthead{
+	height: 35px;
+	line-height: 35px;
+	width: 230px;
+	padding-left: 10px;
+	font-weight: bold;
+	border: 1px solid #D2D2D2;
+	background: url("http://www.dionly.com/images/common/listbg.gif");
+	color: #DB3962;
+}
+.mainltbot{
+	width: 240px;
+	height: 231px;
+	border-left: 1px solid #D2D2D2;
+	border-right: 1px solid #D2D2D2;
+	border-bottom: 1px solid #D2D2D2;
+	margin-bottom: 20px;
+}
+.mainlbhead{
+	height: 35px;
+	line-height: 35px;
+	width: 230px;
+	padding-left: 10px;
+	font-weight: bold;
+	border: 1px solid #D2D2D2;
+	background: url("http://www.dionly.com/images/common/listbg.gif");
+}
+.hotslist{
+	width: 240px;
+	border-left: 1px solid #D2D2D2;
+	border-right: 1px solid #D2D2D2;
+	text-align: center;
+}
+.hotsimgs{
+	padding: 5px 0;
+	width: 240px;
+	height: 200px;
+	text-align: center;
+	background: #fff;
+}
+.hotsimgs img{
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+}
+.hotstext{
+	padding: 0 5px;
+	width: 230px;
+	line-height: 30px;
+	border-bottom: 1px solid #D2D2D2;
+	background: #fff;
+}
+.mainr{
+	margin-top: 20px;
+	float: right;
+	width: 910px;
+	border: 1px solid #D2D2D2;
+	background: #fff;
+	margin-bottom: 35px;
+}
+.righthead{
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	font-weight: bold;
+	border-bottom: 1px solid #D2D2D2;
+	background: url("http://www.dionly.com/images/common/listbg.gif");
+}
+.headnormal{
+	float: left;
+	width: 100px;
+	border-right: 1px solid #D2D2D2;
+	cursor: pointer;
+}
+.productlist{
+	width: 712px;
+	text-align: center;
+	padding: 20px 45px 0 80px;
+}
+.productlist img{
+	min-width: 712px;
+	padding: 20px;
+}
+.productfuwu{
+	width: 712px;
+	text-align: left;
+	padding: 20px 98px;
+	line-height: 24px;
+	float: left;
+}
+.mainr strong{
+	float: left;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 12px;
+	padding: 20px 0 12px 0;
+	background: url("http://www.dionly.com/images/detail/logobg.gif") no-repeat 0 20px;
+	text-indent: 28px;
+	font-size: 14px;
+	font-weight: bold;
+	float: left;
+	width: 712px;
+}
+.productfuwu p{
+	float: left;
+	text-indent: 24px;
+	width: 712px;
+}
+.mainr p:nth-last-child{
+	padding-bottom: 30px;
+}
+.mainr b{
+	font-weight: bold;
+}
+.productpack{
+	float: left;
+	width: 700px;
+	height: 290px;
+	background: url("http://www.dionly.com/images/detail/cpt8.jpg") no-repeat;
+	margin-top: 20px;
+}
+.productpack p{
+	float: right;
+	width: 290px;
+	text-indent: 24px;
+	padding: 25px 20px 0 0;
+}
+.productsend{
+	float: left;
+	width: 700px;
+	height: 280px;
+	background: url("http://www.dionly.com/images/detail/cpt9.jpg") no-repeat;
+	margin-top: 10px;
+}
+.productsend p{
+	width: 274px;
+	margin: 40px 0 0 47px;
+	text-indent: 24px;
+}
+
